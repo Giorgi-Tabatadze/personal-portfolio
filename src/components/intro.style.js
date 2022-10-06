@@ -40,10 +40,11 @@ const BlackSection = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-x: hidden;
 `;
 
 const HeaderWhite = styled.h1`
-  color: ${cssvariables.colors.MainWhite};
+  color: ${cssvariables.colors.mainWhite};
   text-align: center;
   font-size: 3.5vh;
   font-weight: 500;
@@ -51,7 +52,7 @@ const HeaderWhite = styled.h1`
   margin-bottom: 2vh;
 `;
 const HeaderGray = styled.h2`
-  color: ${cssvariables.colors.MainGray};
+  color: ${cssvariables.colors.mainGray};
   text-align: center;
   font-size: 2.5vh;
 `;
@@ -59,7 +60,7 @@ const HeaderGray = styled.h2`
 const GreenButton = styled.button`
   padding: 1vh 25vw;
   background-color: #2fa350;
-  color: ${cssvariables.colors.ButtonsGreen};
+  color: ${cssvariables.colors.buttonsGreen};
   border: 0;
   margin-top: 15vh;
   border-radius: 10px;
