@@ -1,9 +1,11 @@
 const cssvariables = {
   colors: {
-    ButtonsGreen: "#F6F8FA",
-    MainWhite: "#F6F8FA",
-    MainGray: "#8092b2",
-    BackgroundBlack: "#0a0f25",
+    buttonsGreen: "#F6F8FA",
+    mainWhite: "#F6F8FA",
+    mainGray: "#8092b2",
+    backgroundBlack: "#0a0f25",
+    backgroundWhite: "#ffffff",
+    textGray: "#57606a",
   },
 };
 
