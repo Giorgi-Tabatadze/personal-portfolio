@@ -78,7 +78,7 @@ function About() {
           <TechnologiesContainer>
             {techKnowladge.map((tech) => {
               return (
-                <Tech>
+                <Tech key={`${tech.text}`}>
                   <Logo src={tech.logo} />
                   <LogoText>{tech.text}</LogoText>
                 </Tech>
