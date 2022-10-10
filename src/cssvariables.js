@@ -1,6 +1,6 @@
 const cssvariables = {
   colors: {
-    buttonsGreen: "#F6F8FA",
+    buttonsGreen: "#2fa350",
     mainWhite: "#F6F8FA",
     mainGray: "#8092b2",
     backgroundBlack: "#0a0f25",

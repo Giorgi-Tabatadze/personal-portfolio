@@ -40,7 +40,7 @@ const BlackSection = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow-x: hidden;
+  overflow: hidden;
 `;
 
 const HeaderWhite = styled.h1`
@@ -59,8 +59,8 @@ const HeaderGray = styled.h2`
 
 const GreenButton = styled.button`
   padding: 1vh 25vw;
-  background-color: #2fa350;
-  color: ${cssvariables.colors.buttonsGreen};
+  background-color: ${cssvariables.colors.buttonsGreen};
+  color: ${cssvariables.colors.mainWhite};
   border: 0;
   margin-top: 15vh;
   border-radius: 10px;
