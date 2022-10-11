@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.75ed643d.css",
+    "main.js": "/personal-portfolio/static/js/main.12a65c17.js",
+    "static/media/jest.svg": "/personal-portfolio/static/media/jest.b03674d87516aea905b3633f77c83172.svg",
+    "static/media/react.svg": "/personal-portfolio/static/media/react.e68b35f4774979ae220b1d5d7b345b00.svg",
+    "static/media/git.svg": "/personal-portfolio/static/media/git.c60b7e5ae8ec2562f23fdddcab300026.svg",
+    "index.html": "/personal-portfolio/index.html",
+    "static/media/webpack.svg": "/personal-portfolio/static/media/webpack.f44900ae6538b4d778644c71e250e7c5.svg",
+    "static/media/css.svg": "/personal-portfolio/static/media/css.4e47c3122b8d2476a02f97dcfcb28640.svg",
+    "static/media/html.svg": "/personal-portfolio/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
+    "static/media/javascript.svg": "/personal-portfolio/static/media/javascript.b879f838faf1cb951d1c2230fd933a39.svg",
+    "static/media/npm.svg": "/personal-portfolio/static/media/npm.d8917a420fc3657bf21283394459f6ec.svg",
+    "main.75ed643d.css.map": "/personal-portfolio/static/css/main.75ed643d.css.map",
+    "main.12a65c17.js.map": "/personal-portfolio/static/js/main.12a65c17.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75ed643d.css",
+    "static/js/main.12a65c17.js"
+  ]
+}
