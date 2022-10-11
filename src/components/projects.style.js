@@ -7,6 +7,7 @@ const ProjectsBackground = styled(BlackSection)`
   background: ${cssvariables.colors.backgroundBlack};
   height: auto;
   width: auto;
+  padding-bottom: 10vh;
 `;
 const ProjectsHeader = styled(PurpleBlueHeader)`
   background: #99efd7;
@@ -64,6 +65,7 @@ const RepositoryButton = styled(GreenButton)`
   width: 120px;
   margin-bottom: 15%;
   font-size: 16px;
+  height: 6vh;
   @media (min-width: 801px) {
     width: 200px;
 

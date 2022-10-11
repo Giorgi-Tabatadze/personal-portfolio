@@ -58,7 +58,7 @@ const HeaderGray = styled.h2`
 `;
 
 const GreenButton = styled.button`
-  padding: 1vh 25vw;
+  padding: 0vh 25vw;
   background-color: ${cssvariables.colors.buttonsGreen};
   color: ${cssvariables.colors.mainWhite};
   border: 0;
@@ -68,16 +68,20 @@ const GreenButton = styled.button`
   &:hover {
     cursor: pointer;
   }
+  box-sizing: border-box;
   &:active {
-    background-color: red;
+    box-shadow: 0px 0px 0px 20px ${cssvariables.colors.backgroundBlack} inset;
+    border: 2px solid ${cssvariables.colors.buttonsGreen};
+    box-sizing: border-box;
   }
   span {
     display: flex;
     align-items: center;
     gap: 2vw;
   }
+  height: 5vh;
   @media (min-width: 801px) {
-    padding: 1vh 10vw;
+    padding: 0vh 10vw;
     span {
       gap: 1vw;
     }

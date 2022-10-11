@@ -3,6 +3,7 @@ import GlobalStyle from "./Global.style";
 import "normalize.css";
 import About from "./components/about";
 import Projects from "./components/projects";
+import ContactUs from "./components/contact";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Intro />
       <About />
       <Projects />
+      <ContactUs />
     </div>
   );
 }
