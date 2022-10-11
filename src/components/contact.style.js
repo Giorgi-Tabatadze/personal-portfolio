@@ -35,17 +35,39 @@ const Name = styled.input`
   color: ${cssvariables.colors.mainWhite};
   padding: 10px 5px;
   max-width: 600px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  outline: none;
+
+  &:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+
+    border: 1px solid rgba(81, 203, 238, 1);
+  }
 `;
 
 const Email = styled(Name)``;
 
 const Message = styled.textarea`
+  resize: none;
   background-color: #292c35;
   color: ${cssvariables.colors.mainWhite};
   width: 80vw;
   border: 0;
   padding: 10px 5px;
   max-width: 600px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  outline: none;
+  &:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+
+    border: 1px solid rgba(81, 203, 238, 1);
+  }
 `;
 
 const SubmitContainer = styled.div`
