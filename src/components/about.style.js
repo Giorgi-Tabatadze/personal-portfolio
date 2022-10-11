@@ -69,7 +69,7 @@ const Tech = styled.div`
 `;
 const Logo = styled.img`
   width: 10vw;
-  @media (min-width: 801px) {
+  @media (min-width: 601px) {
     width: 45px;
   } ;
 `;
